@@ -1,6 +1,6 @@
 public class VotingEligibility {
     public static void main(String[] args) {
-        int age=20;
+        int age=17;
         boolean hasvoterID = true;
         if(age>=18 && hasvoterID==true)
         {
