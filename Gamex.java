@@ -5,13 +5,16 @@ public class Gamex {
         int choice;
         do{
         int num= (int)(Math.random()*100);
+        System.out.println(num);
+        
+        
    
         System.out.println("WELCOME !!!");
        
         int chance=1;
         while(chance<=5)
         {
-             System.out.println("Enter any number :");
+             System.out.println("Enter any number between 1 to 99 :");
              int guess=sc.nextInt();
         
             if(guess>num)
