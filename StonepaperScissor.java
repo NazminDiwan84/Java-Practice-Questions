@@ -29,7 +29,7 @@ public class StonepaperScissor {
         else if(user.equals("stone") && computer.equals("scissor") ||
                  user.equals("paper") && computer.equals("stone") ||
                  user.equals("scissor") && computer.equals("paper"))
-                 {
+                  {
                     System.out.println(" Congratulation 🎇🎉\n You won..... \n Computer choice is " +computer);
                  }
         else{

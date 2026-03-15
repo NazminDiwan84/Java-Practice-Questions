@@ -15,7 +15,7 @@ public class Getexactlyto21 {
 
             while (chance <= 7) {
 
-                int num = (int)(Math.random() * 9)+1;
+                int num = (int)(Math.random() * 20)+1;
                 System.out.println("You have given "+num +" litres of water now");
 
                 System.out.println("Choose operator (+,-,*) how to use  the water which is given to you");
